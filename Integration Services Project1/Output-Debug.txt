@@ -1,0 +1,26 @@
+﻿SSIS package "C:\Users\Admin\source\repos\Integration Services Project1\Integration Services Project1\Package1.dtsx" starting.
+Information: 0x4004300A at Data Flow Task, SSIS.Pipeline: Validation phase is beginning.
+Warning: 0x802092A7 at Data Flow Task, OLE DB Destination [49]: Truncation may occur due to inserting data from data flow column "Copy of ID" with a length of 50 to database column "ID" with a length of 10.
+Warning: 0x802092A7 at Data Flow Task, OLE DB Destination [49]: Truncation may occur due to inserting data from data flow column "Copy of Name" with a length of 50 to database column "Name" with a length of 10.
+Warning: 0x802092A7 at Data Flow Task, OLE DB Destination [49]: Truncation may occur due to inserting data from data flow column "Copy of Gender" with a length of 50 to database column "Gender" with a length of 10.
+Warning: 0x802092A7 at Data Flow Task, OLE DB Destination [49]: Truncation may occur due to inserting data from data flow column "Copy of Company_Name" with a length of 50 to database column "Company_Name" with a length of 10.
+Information: 0x4004300A at Data Flow Task, SSIS.Pipeline: Validation phase is beginning.
+Warning: 0x802092A7 at Data Flow Task, OLE DB Destination [49]: Truncation may occur due to inserting data from data flow column "Copy of ID" with a length of 50 to database column "ID" with a length of 10.
+Warning: 0x802092A7 at Data Flow Task, OLE DB Destination [49]: Truncation may occur due to inserting data from data flow column "Copy of Name" with a length of 50 to database column "Name" with a length of 10.
+Warning: 0x802092A7 at Data Flow Task, OLE DB Destination [49]: Truncation may occur due to inserting data from data flow column "Copy of Gender" with a length of 50 to database column "Gender" with a length of 10.
+Warning: 0x802092A7 at Data Flow Task, OLE DB Destination [49]: Truncation may occur due to inserting data from data flow column "Copy of Company_Name" with a length of 50 to database column "Company_Name" with a length of 10.
+Warning: 0x80049304 at Data Flow Task, SSIS.Pipeline: Warning: Could not open global shared memory to communicate with performance DLL; data flow performance counters are not available.  To resolve, run this package as an administrator, or on the system's console.
+Information: 0x40043006 at Data Flow Task, SSIS.Pipeline: Prepare for Execute phase is beginning.
+Information: 0x40043007 at Data Flow Task, SSIS.Pipeline: Pre-Execute phase is beginning.
+Information: 0x402090DC at Data Flow Task, Flat File Source [24]: The processing of file "C:\Users\Admin\Downloads\SampleCSVFile_2kb.csv" has started.
+Warning: 0x80070020 at Data Flow Task, Flat File Source [24]: The process cannot access the file because it is being used by another process.
+Error: 0xC020200E at Data Flow Task, Flat File Source [24]: Cannot open the datafile "C:\Users\Admin\Downloads\SampleCSVFile_2kb.csv".
+Error: 0xC004701A at Data Flow Task, SSIS.Pipeline: Flat File Source failed the pre-execute phase and returned error code 0xC020200E.
+Information: 0x40043008 at Data Flow Task, SSIS.Pipeline: Post Execute phase is beginning.
+Information: 0x402090DD at Data Flow Task, Flat File Source [24]: The processing of file "C:\Users\Admin\Downloads\SampleCSVFile_2kb.csv" has ended.
+Information: 0x4004300B at Data Flow Task, SSIS.Pipeline: "OLE DB Destination" wrote 0 rows.
+Information: 0x40043009 at Data Flow Task, SSIS.Pipeline: Cleanup phase is beginning.
+Task failed: Data Flow Task
+Warning: 0x80019002 at Package1: SSIS Warning Code DTS_W_MAXIMUMERRORCOUNTREACHED.  The Execution method succeeded, but the number of errors raised (2) reached the maximum allowed (1); resulting in failure. This occurs when the number of errors reaches the number specified in MaximumErrorCount. Change the MaximumErrorCount or fix the errors.
+SSIS package "C:\Users\Admin\source\repos\Integration Services Project1\Integration Services Project1\Package1.dtsx" finished: Failure.
+The program '[7132] DtsDebugHost.exe: DTS' has exited with code 0 (0x0).
